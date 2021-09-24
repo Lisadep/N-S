@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+    }
+
+header {
+    width: 100%;
+	height: 20vh;
+    border: 1px solid black;
+    display: flex;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+a   {
+    text-decoration:none;
+    color: black;
+}
+header .Form {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+	height: 5vh;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+textarea {
+    border-radius: 15px;
+    text-align: center;
+    resize: none;
+}
+header .Formu, Form {
+    padding: 10px;
+}
+.Icone {
+    width: 100%;
+	height: 5vh;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+	height: 20vh;
+    border: 1px solid black;
+    display: flex;
+}
+.Lab {
+    width: 100%;
+	height: 10vh;
+}
+footer .Labels {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
+}
