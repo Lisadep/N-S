@@ -47,7 +47,6 @@ header .Formu, Form {
 h1{
     padding-top: 15px;
     font-size: 'Playfair Display', serif;
-    margin-left: 550px;
 }
 .small-container{
     width: 80%;
@@ -183,6 +182,10 @@ video{
     grid-column: 3/4;
     grid-row: 3/4;
  } 
+
+.rect {
+    padding: 15px;
+}
 
 /* Panier */
 
