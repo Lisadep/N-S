@@ -1,0 +1,113 @@
+header {
+    width: 100%;
+	height: 20vh;
+    border: 1px solid black;
+    display: flex;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+a   {
+    text-decoration:none;
+    color: black;
+}
+header .Form {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+	height: 5vh;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+textarea {
+    border-radius: 15px;
+    text-align: center;
+    resize: none;
+}
+header .Formu, Form {
+    padding: 10px;
+}
+.Icone {
+    width: 100%;
+	height: 5vh;
+}
+
+
+
+/* SAC A MAIN TITRE H1 / */
+h1{
+    border: solid 1px rgba(215, 213, 208, 100%);
+    font-family: playfair display;
+    text-align: center;
+
+}
+
+
+/* / FILTRES / */
+.colonefiltre{
+    background-color: #e0cda9;
+    border: 1px solid rgba(215, 213, 208, 100%);
+    width: 100%;
+} 
+
+.Catégories{
+    border: 1px solid rgba(215, 213, 208, 100%);
+} 
+
+.image3{
+    width: 100%;
+    height: 1px;
+}
+
+.plus{
+    text-align: center;
+    margin: 5% 0 0;
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+input{
+    background: #e0cda9;
+    border: none;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+}
+input:hover{
+    border: 2px solid black;
+
+}
+
+.sacchoisi{
+    display: flex;
+    justify-content: flex-end;
+}
+.derniereranger .sacchoisi{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+footer {
+    margin-top: 200px;
+    width: 100%;
+	height: 20vh;
+    border: 1px solid black;
+    display: flex;
+}
+.Lab {
+    width: 100%;
+	height: 10vh;
+}
+footer .Labels {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
+}

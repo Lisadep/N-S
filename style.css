@@ -44,6 +44,8 @@ header .Formu, Form {
     width: 100%;
 	height: 5vh;
 }
+
+
 h1{
     padding-top: 15px;
     font-size: 'Playfair Display', serif;
@@ -274,71 +276,6 @@ td button:hover{
     height: 30px;
 }
 
-
-/* Vêtements */
-
- /* SAC A MAIN TITRE H1 */
-.h1sacs{
-    border: solid 1px rgba(215, 213, 208, 100%);
-    font-family: playfair display;
-
-}
-
-
-/* / FILTRES / */
-.colonefiltre{
-    background-color: #e0cda9;
-    border: 1px solid rgba(215, 213, 208, 100%);
-    width: 100%;
-} 
-
-.Catégories{
-    border: 1px solid rgba(215, 213, 208, 100%);
-} 
-
-.image3{
-    width: 100%;
-    height: 1px;
-}
-
-.plus{
-    text-align: center;
-    margin: 5% 0 0;
-
-}
-
-.button{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-}
-
-input{
-    background: #e0cda9;
-    border: none;
-    text-align: center;
-    width: 300px;
-    height: 40px;
-}
-input:hover{
-    border: 2px solid black;
-
-}
-
-.sacchoisi{
-    display: flex;
-    justify-content: flex-end; 
-}
-.derniereranger .sacchoisi{
-    display: flex;
-    justify-content: flex-end;
-
-}
-.rangersacs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* FOOTER */
 
