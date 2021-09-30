@@ -45,6 +45,7 @@ header .Formu, Form {
 	height: 5vh;
 }
 
+/* Panier */
 
 h1{
     padding-top: 15px;
@@ -294,4 +295,57 @@ footer .Labels {
     display: flex;
     margin-left: 300px;
     margin-top: 50px;
+}
+
+@media (max-width: 700px) {
+    header {
+        width: 100%;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lih {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    header .Form {
+        align-items: center;
+    }
+    .NetS {
+        height: 40vh
+    }
+
+/* Acceuil */
+
+    #collection {
+        display: block;
+    }
+    .box {
+        border: none;
+    }
+
+/* Footer */
+
+    footer {
+    margin-top: 1150px;
+    width: 100%;
+	height: 45vh;
+    border: 1px solid black;
+    display: block;
+    }
+    .lif {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    footer .Labels {
+        display: flex;
+        margin-top: 50px; 
+    }
 }
