@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
 <header>
     <img src="Images/N&S.png" alt="Logo N & S">
     <li><a href="index.html">Acceuil</a></li>
@@ -26,37 +27,49 @@
     </div>
 </header>
 
-<section id="video">
+<body>
 
-    <video width="100%" src="Images/pexels-koolshooters-8531894.mp4" loop autoplay ></video>
-       </section>
 
-       <!-- photo -->
-       <h1>Les Essentielles</h1>
+    <!-- SAC A MAIN TITRE H1 -->
+<div>
+    <h1 class="h1sacs">Sacs à main</h1>
+</div>
 
-       <section id="collection">
-           
 
-           <div class="box box1">
-               <img src="Images/Rectangle 1.jpg" alt="collection">
-               <p class="rect"> Nouvelle collection</p>
-           </div>
-           <div class="box box2">
-               <img src="Images/Rectangle 2.jpg" alt="sac">
-               <p class="rect">Collection Sac</p>
-               
-           </div>
-           <div class="box box3">
-               <img src="Images/Rectangle 3.jpg" alt="acessoires">
-               <p class="rect">Accessoires</p>
-               
-           </div>
-           <div class="box box4">
-            <img src="Images/Rectangle 4.jpg" alt="chaussures">
-            <p class="rect">Chaussures</p>
-            
-           </div>
-       </section>
+ <!-- TABLEAU LIGNE POUR LES FILTRES -->
+<table class="colonefiltre">
+    <tr>
+        <th class="voirlesfiltres"><p>Voir les filtres:</p></th>
+        <th class="Catégories"><p>Catégories</p></th>
+        <th class="Matière"><p>Matières</p></th>
+        <th class="Couleurs"><p>Couleurs</p></th>
+        <th class="Saciconiques"><p>Sacs Iconiques</p></th>
+    </tr>
+</table>
+<br><br><br>
+
+<!-- IMAGE RANGER DE SACS -->
+<table class="rangersacs">
+    <tr><img src="Images/sacs.png" alt="sac1"></tr><br><br><br><br><br><br>
+    <tr><img src="Images/sacranger2.png" alt="sac2"></tr><br><br><br><br><br><br>
+    <tr class="image3"><a href="Sac noir"></a><img src="Images/sacs_ranger_3.png" alt="sac3">
+    <!-- <img src="sac choisi.png" alt="sacchoisi" class="sacchoisi"><a href="Sac noir"></a></tr>    -->
+</table>
+
+
+<p class="plus">
+Vous avez vu 9 articles sur 290 
+</p><br>
+
+
+    <button class="voirplus"><span></span></button>
+<div class="button">
+            <!-- <button type="voirplus"><span>Voir plus</span></button> -->
+            <input type='submit' name='upload' value='Voir plus' >
+        </div>
+ 
+
+</body>
 
 <footer>
     <li><a href="">Langue</a></li>
@@ -67,5 +80,4 @@
     <div class="Labels"><img class="Lab" src="Images/Eco.png" alt="Label eco-responsable">
         <img class="Lab" src="Images/Sec.png" alt="Label Secure Code"></div>
 </footer>
-</body>
 </html>
