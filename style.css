@@ -349,3 +349,81 @@ footer .Labels {
         margin-top: 50px; 
     }
 }
+
+
+/* MENU */
+#LeMenu { 
+    max-width:1400px; 
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+  }
+  #LeMenu > a { 
+    padding:5px 10px; 
+    margin:0 2px;
+    text-decoration:none;
+    color:black;
+    border:solid 1px black;	
+    background: white;
+    border-radius:10px;
+    text-align:center;
+  }
+  #LeMenu > a:hover {	
+    background:#e2bddc; 
+    color: black;	
+    border: solid 1px black;
+  }
+  
+  /* bouton menu burger */
+  #CmdMenu { 
+    position :fixed; 
+    top :4px; 
+    right :4px; 
+    z-index :50;
+    padding:5px 8px; 
+    color:black;
+    background: #e2bddc;
+    border-radius:5px;
+    cursor:pointer;
+  }
+  #CmdMenu:hover {	
+    background:#e2bddc; 	
+    border: solid 1px black;
+  }
+  
+  /* MOBILE FIRST */
+  #LeMenu {
+    flex-direction:column;
+  }
+  #CmdMenu { 
+    display:block;
+  }
+  /* TABLET - DESKTOP */
+  @media (min-width: 769px) {
+    #LeMenu {
+      flex-direction:row;
+      /*flex-wrap:wrap;*/
+    }
+    #LeMenu > a {
+      display:flex;
+      align-items:center;
+      border: none;
+      /*flex-wrap:wrap;*/
+    }
+    #CmdMenu { 
+      display:none;
+    }
+  }
+  /* TABLET */
+  @media (min-width: 769px) and (max-width: 1200px) {
+    #LeMenu > a { 
+      padding:5px 10px; 
+      margin:0 2px;
+    }
+  }
+  /* DESKTOP */
+  @media (min-width:1201px) {
+    #LeMenu > a { 
+      margin:0 5px;
+    }
+  }

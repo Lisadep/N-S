@@ -94,6 +94,9 @@ input:hover{
     justify-content: flex-end;
 
 }
+img {
+    width: 1300px;
+}
 
 footer {
     margin-top: 200px;
