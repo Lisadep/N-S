@@ -1,0 +1,298 @@
+*:focus {
+    outline: none;
+    }
+
+/* Header */
+
+header {
+    width: 100%;
+	height: 20vh;
+    border: 1px solid black;
+    display: flex;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+a   {
+    text-decoration:none;
+    color: black;
+}
+header .Form {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+	height: 5vh;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+textarea {
+    border-radius: 15px;
+    text-align: center;
+    resize: none;
+}
+header .Formu, Form {
+    padding: 10px;
+}
+.Icone {
+    width: 100%;
+	height: 5vh;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    margin-bottom: 50px;
+}
+body{
+    line-height: 1.5;
+}
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.img-display{
+    overflow: hidden;
+}
+.img-showcase{
+    display: flex;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.img-showcase img{
+    min-width: 100%;
+}
+.img-select{
+    display: flex;
+}
+.img-item{
+    margin: 0.3rem;
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3){
+    margin-right: 0;
+}
+.img-item:hover{
+    opacity: 0.8;
+}
+.product-content{
+    padding: 2rem 1rem;
+}
+.product-title{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: #000;
+    margin: 1rem 0;
+}
+.product-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background: #000;
+}
+.product-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    background: #256eff;
+    color: #fff;
+    padding: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+.product-link:hover{
+    opacity: 0.9;
+}
+.product-rating{
+    color: #ffc107;
+}
+.product-rating span{
+    font-weight: 600;
+    color: #252525;
+}
+.product-price{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.product-price span{
+    font-weight: 400;
+}
+
+.price span{
+    color: #256eff;
+}
+.product-detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.6rem;
+}
+.product-detail p{
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+}
+
+
+
+.purchase-info{
+    margin: 1.5rem 0;
+}
+.purchase-info input,
+.purchase-info .btn{
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+.purchase-info input{
+    width: 60px;
+}
+.purchase-info .btn{
+    cursor: pointer;
+    color: #fff;
+}
+.purchase-info .btn:first-of-type{
+    background: #256eff;
+}
+.purchase-info .btn:last-of-type{
+    background: #f64749;
+}
+.purchase-info .btn:hover{
+    opacity: 0.9;
+}
+footer {
+    margin-top: 200px;
+    width: 100%;
+	height: 20vh;
+    border: 1px solid black;
+    display: flex;
+}
+.Lab {
+    width: 100%;
+	height: 10vh;
+}
+footer .Labels {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 992px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+    }
+    .card-wrapper{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product-content{
+        padding-top: 0;
+    }
+}
+/* MENU */
+#LeMenu { 
+    max-width:1400px; 
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+  }
+  #LeMenu > a { 
+    padding:5px 10px; 
+    margin:0 2px;
+    text-decoration:none;
+    color:black;
+    border:solid 1px black;	
+    background: white;
+    border-radius:10px;
+    text-align:center;
+  }
+  #LeMenu > a:hover {	
+    background:#e2bddc; 
+    color: black;	
+    border: solid 1px black;
+  }
+  
+  /* bouton menu burger */
+  #CmdMenu { 
+    position :fixed; 
+    top :4px; 
+    right :4px; 
+    z-index :50;
+    padding:5px 8px; 
+    color:black;
+    background: #e2bddc;
+    border-radius:5px;
+    cursor:pointer;
+  }
+  #CmdMenu:hover {	
+    background:#e2bddc; 	
+    border: solid 1px black;
+  }
+  
+  /* MOBILE FIRST */
+  #LeMenu {
+    flex-direction:column;
+  }
+  #CmdMenu { 
+    display:block;
+  }
+  /* TABLET - DESKTOP */
+  @media (min-width: 769px) {
+    #LeMenu {
+      flex-direction:row;
+      /*flex-wrap:wrap;*/
+    }
+    #LeMenu > a {
+      display:flex;
+      align-items:center;
+      border: none;
+      /*flex-wrap:wrap;*/
+    }
+    #CmdMenu { 
+      display:none;
+    }
+  }
+  /* TABLET */
+  @media (min-width: 769px) and (max-width: 1200px) {
+    #LeMenu > a { 
+      padding:5px 10px; 
+      margin:0 2px;
+    }
+  }
+  /* DESKTOP */
+  @media (min-width:1201px) {
+    #LeMenu > a { 
+      margin:0 5px;
+    }
+  }
