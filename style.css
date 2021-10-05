@@ -427,3 +427,16 @@ footer .Labels {
       margin:0 5px;
     }
   }
+
+ 
+
+@media(max-width: 1150px) {
+    .carte{
+      flex-direction: row;
+      padding: 90px;
+      margin-right: 50px;
+    }
+    h1{
+       margin-left: 180px;
+    }
+}
