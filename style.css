@@ -319,14 +319,7 @@ footer .Labels {
         height: 40vh
     }
 
-/* Acceuil */
 
-    #collection {
-        display: block;
-    }
-    .box {
-        border: none;
-    }
 
 /* Footer */
 
@@ -347,6 +340,15 @@ footer .Labels {
     footer .Labels {
         display: flex;
         margin-top: 50px; 
+    }
+
+    /* Acceuil */
+
+    #collection {
+        display: block;
+    }
+    .box {
+        border: none;
     }
 }
 
