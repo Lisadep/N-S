@@ -1,3 +1,5 @@
+// Menu Hamburger
+
 
 "use strict";
 window.addEventListener("DOMContentLoaded", (event) => {
@@ -24,6 +26,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 });
 
+
+// Produit Choisi
+
+
 const imgs = document.querySelectorAll('.img-select a');
 const imgBtns = [...imgs];
 let imgId = 1;
@@ -43,3 +49,7 @@ function slideImage(){
 }
 
 window.addEventListener('resize', slideImage);
+
+
+// Ajouter aux favoris
+
